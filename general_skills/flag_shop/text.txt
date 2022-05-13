@@ -1,0 +1,10 @@
+Welcome to the flag exchange
+We sell flags
+
+1. Check Account Balance
+
+2. Buy Flags
+
+3. Exit
+
+ Enter a menu selection
