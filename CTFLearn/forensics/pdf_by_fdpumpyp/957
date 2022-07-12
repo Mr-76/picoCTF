@@ -1,0 +1,222 @@
+
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    
+        
+            <script data-ad-client="ca-pub-5775379917527071" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-KH229BX');</script>
+            <!-- End Google Tag Manager -->
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="/static/img/favicon.ico"/>
+        <script src="https://kit.fontawesome.com/acbbb1978f.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <meta property="og:title" content="CTFlearn - Learn to Hack">
+        <meta property="og:description" content="Learn and compete on CTFlearn">
+        <meta property="og:image" content="https://ctflearn.com/static/img/sticker.png">
+        <meta property="og:url" content="https://ctflearn.com">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="/static/css/custom.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <script src="/static/js/notification.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="/static/js/main.js"></script>
+        <script src="https://www.paypal.com/sdk/js?client-id=ARpPKlijciJoVrJ0jAvAoqUQhGs1_NA77qKtY70bbLIIMrpKrSDG2zUaNv4v2lgG79EGawlLjwsgFIWe&vault=true&intent=subscription&disable-funding=credit"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw==" crossorigin="anonymous" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+<script>
+moment.locale("en");
+function flask_moment_render(elem) {
+    $(elem).text(eval('moment("' + $(elem).data('timestamp') + '").' + $(elem).data('format') + ';'));
+    $(elem).removeClass('flask-moment').show();
+}
+function flask_moment_render_all() {
+    $('.flask-moment').each(function() {
+        flask_moment_render(this);
+        if ($(this).data('refresh')) {
+            (function(elem, interval) { setInterval(function() { flask_moment_render(elem) }, interval); })(this, $(this).data('refresh'));
+        }
+    })
+}
+$(document).ready(function() {
+    flask_moment_render_all();
+});
+</script>
+        <!-- Chart JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js" integrity="sha256-TQq84xX6vkwR0Qs1qH5ADkP+MvH0W+9E7TdHJsoIQiM=" crossorigin="anonymous"></script>
+    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-MZC3FM5"></script>
+    <title> Login -  CTFlearn - CTF Practice - CTF Problems - CTF Challenges</title>
+    
+</head>
+<body>
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KH229BX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    
+
+    
+    
+        <nav id="navbar" class="font-weight-bold sticky-top navbar navbar-expand-lg navbar-dark nav-unscrolled">
+            <a class="ml-lg-5 navbar-brand font-weight-bold font-primary" href="/">CTFLEARN</a>
+            <div class="mr-auto d-flex">
+                <a href="https://discord.gg/yNHUQfJ" class="text-white">
+                    <i class="fab fa-discord fa-1x mr-3"></i>
+                </a>
+                <a class="text-white" href="https://twitter.com/CTFlearn">
+                    <i class="fab fa-twitter fa-1x"></i>
+                </a>
+            </div>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse font-primary" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/user/login">Login</a>
+                    </li>
+                </ul>
+                <a href="/user/register" class="ml-lg-1 mr-lg-5 mr-md-5 btn btn-primary my-2 my-sm-0"
+                   type="submit">Join Now</a>
+            </div>
+        </nav>
+        <script>
+            var myNav = document.getElementById('navbar');
+            window.onscroll = function () {
+                "use strict";
+                if (document.body.scrollTop >= 50 || document.documentElement.scrollTop >= 50) {
+                    myNav.classList.add("nav-scrolled");
+                    myNav.classList.remove("nav-unscrolled");
+                } else {
+                    myNav.classList.add("nav-unscrolled");
+                    myNav.classList.remove("nav-scrolled");
+                }
+            };
+        </script>
+    
+
+        <div class="container-fluid">
+            
+    <div class="container h-75 min-vh-100 mt-5">
+        <div class="row h-75 d-flex justify-content-center align-items-center">
+            <div class="col col-sm-12 col-md-6 mx-auto">
+                <div class="card bg-secondary">
+                    <div class="card-header">
+                        <span>Login</span>
+                    </div>
+                    <div class="card-body">
+                        <form action="/user/login" method="post">
+                            <input id="csrf_token" name="csrf_token" type="hidden" value="ImE1MDQ0OTZlZDNlM2Y0ODQ0ZDk1MjM0N2Q4NzVhMjJjOGU5NjY0YTki.Ys3Djg.M5qhVGSTDOxIwld0w7zMPZN3S-8">
+                            <div class="form-group">
+                                
+    
+        <label for="identifier">Username or Email</label>
+    
+
+    
+    
+    <input class="form-control" id="identifier" name="identifier" required type="text" value="">
+    
+    
+
+                            </div>
+                            <div class="form-group">
+                                
+    
+        <label for="password">Password</label>
+    
+
+    
+    
+    <input class="form-control" id="password" name="password" required type="password" value="">
+    
+    
+
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-2">Login</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <p class="small text-center">If you don't remember your password click <a
+                            href="/user/forgotPassword">here</a>.</p>
+                    <p class="small text-center">Need an account? Click <a
+                            href="/user/register">here</a> to get learning!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+    <footer>
+        
+    
+      
+        
+            <script>
+                notification("Please log in to access this page.", "message");
+            </script>
+        
+      
+    
+
+        
+            
+    <div class="bg-secondary mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 mt-5 mb-5">
+                    <h3 class="font-weight-bold text-white-50 font-primary">CTFlearn</h3>
+                    <span class="text-white-50 font-primary">The most beginner-friendly way to learn cyber security.</span>
+                </div>
+                <div class="col-md-6 col-sm-12 mt-5 mb-5">
+                    <div class="row flex-row">
+                        <div class="col d-flex flex-column">
+                            <h5 class="font-weight-bold text-white-50 font-primary">Get Started</h5>
+                            <a class="text-white-50 mb-sm-2 mb-md-0 p-sm-2 p-md-0" href="/user/register">Create Account</a>
+                            <a class="text-white-50 mb-sm-2 mb-md-0 p-sm-2 p-md-0" href="/user/login">Log In</a>
+                            <a class="text-white-50 mb-sm-2 mb-md-0 p-sm-2 p-md-0" href="/challenge/1/browse">Challenges</a>
+                        </div>
+                        <div class="col d-flex flex-column">
+                            <h5 class="font-weight-bold text-white-50 font-primary mb-sm-2 mb-md-0 p-sm-2 p-md-0">Socials</h5>
+                            <a class="text-white-50 mb-sm-2 mb-md-0 p-sm-2 p-md-0" href="https://discord.gg/yNHUQfJ">Discord</a>
+                            <a class="text-white-50 mb-sm-2 mb-md-0 p-sm-2 p-md-0" href="https://twitter.com/ctflearn">Twitter</a>
+                            <a class="text-white-50 mb-sm-2 mb-md-0 p-sm-2 p-md-0" href="https://reddit.com/r/ctflearn">Reddit</a>
+                        </div>
+                        <div class="col d-flex flex-column">
+                            <h5 class="font-weight-bold text-white-50 font-primary mb-sm-2 mb-md-0 p-sm-2 p-md-0 mt-md-0 mt-sm-3">Contact</h5>
+                            <p class="text-white-50 mb-sm-2 mb-md-0 p-sm-2 p-md-0"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bcc8d9ddd1fcdfc8dad0d9ddced292dfd3d1">[email&#160;protected]</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+    </footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,14 @@
+follow this tutorial on binwalk uses
+
+https://github.com/ReFirmLabs/binwalk/wiki/Quick-Start-Guide
+
+
+flag == ABCTF{b1nw4lk_is_us3ful}
+
+
+
+
+
+
+
+binwalk -D 'png image:png' PurpleThing.jpeg 
